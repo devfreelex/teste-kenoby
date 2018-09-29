@@ -1,5 +1,7 @@
 body {
-    background:#f0f0f0
+    background:#f0f0f0;
+    min-width:480px;
+    overflow: hidden;
 }
 
 .container {
@@ -13,7 +15,9 @@ body {
 
 .container.has--limit_with {
     max-width:1080px;
+    min-width:480px;
     margin:0 auto;
+    padding:0 15px;
 }
 
 .container.has--gutter_bottom {
